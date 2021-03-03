@@ -43,5 +43,5 @@ body { background-color: #1e1e1e; }
 }
 @font-face {
     font-family: "Ponter S";
-    src: url("/20137.ttf") format("truetype");
+    src: url("./20137.ttf") format("truetype");
 }
