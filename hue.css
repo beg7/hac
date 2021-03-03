@@ -1,0 +1,47 @@
+* { margin:0; padding:0; } /* to remove the top and left whitespace */
+
+body { background-color: #1e1e1e; }
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%; width: 100%;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.wrap{
+    width:45%;
+    margin:0 auto;
+}
+.r{
+    width:90%;
+    height:20vw;
+}
+.t{
+    font-family: "Ponter S", serif;
+    text-size-adjust: 120%;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    width: 90% !important;
+    display: block;
+}
+.line{
+    display: flow-root;
+}  
+.color{
+    width:50%;
+}    
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+@font-face {
+    font-family: "Ponter S";
+    src: url("/20137.ttf") format("truetype");
+}
